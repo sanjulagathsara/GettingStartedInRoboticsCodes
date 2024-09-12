@@ -3,13 +3,15 @@
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  pinMode(13,INPUT);
+
+  for(int i=0;i<=100;i++){
+    Serial.println(i);
+    delay(100);
+  }
 
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  int state = digitalRead(13);
-  Serial.println(state);
-  delay(10);
+
 }

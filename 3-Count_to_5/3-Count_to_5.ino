@@ -4,11 +4,16 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
 
-  for(int i=0;i<=100;i++){
-    Serial.println(i);
-    delay(100);
-  }
-
+  Serial.println(1);
+  delay(1000);
+  Serial.println(2);
+  delay(1000);
+  Serial.println(3);
+  delay(1000);
+  Serial.println(4);
+  delay(1000);
+  Serial.println(5);
+  delay(1000);
 }
 
 void loop() {
